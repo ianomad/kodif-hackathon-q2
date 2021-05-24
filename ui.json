@@ -1,0 +1,131 @@
+{
+    "title": "Kodif UI components",
+    "description": "These components will be shown on the client",
+    "ui": [
+        {
+            "type": "View",
+            "style": {
+                "backgroundColor": "pink",
+                "borderWidth": 1,
+                "borderRadius": 5
+            },
+            "children": [
+                {
+                    "type": "View",
+                    "style": {
+                        "alignItems": "center"
+                    },
+                    "children": [
+                        {
+                            "type": "Image",
+                            "src": "https://media.tenor.com/images/2d7653719ce3ba74e709bf962f2d7f50/tenor.png",
+                            "style": {
+                                "width": 150,
+                                "height": 150,
+                                "margin": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "View",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "content": "Would you like to proceeed?",
+                            "style": {
+                                "textAlign": "center",
+                                "padding": 10
+                            }
+                        },
+                        {
+                            "type": "View",
+                            "style": {
+                                "flexDirection": "row",
+                                "justifyContent": "space-around",
+                                "textAlign": "center"
+                            },
+                            "children": [
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "title": "yes"
+                                    }
+                                },
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "title": "no"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "View",
+            "style": {
+                "backgroundColor": "red",
+                "borderWidth": 1,
+                "borderRadius": 5,
+                "margin": 10
+            },
+            "children": [
+                {
+                    "type": "View",
+                    "style": {
+                        "alignItems": "center"
+                    },
+                    "children": [
+                        {
+                            "type": "Image",
+                            "src": "https://media.tenor.com/images/2d7653719ce3ba74e709bf962f2d7f50/tenor.png",
+                            "style": {
+                                "width": 150,
+                                "height": 150,
+                                "margin": 10
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "View",
+                    "children": [
+                        {
+                            "type": "Text",
+                            "content": "Would you like to proceeed?",
+                            "style": {
+                                "textAlign": "center",
+                                "padding": 10
+                            }
+                        },
+                        {
+                            "type": "View",
+                            "style": {
+                                "flexDirection": "row",
+                                "justifyContent": "space-around",
+                                "textAlign": "center"
+                            },
+                            "children": [
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "title": "yes"
+                                    }
+                                },
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "title": "no"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
