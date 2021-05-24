@@ -125,6 +125,62 @@
                     ]
                 }
             ]
+        },
+        {
+            "type": "View",
+            "style": {
+                "borderWidth": 1,
+                "borderRadius": 5,
+                "margin": 10
+            },
+            "children": [
+                {
+                    "type": "View",
+                    "children": [
+                        {
+                            "type": "View",
+                            "style": {
+                                "alignItems": "center"
+                            },
+                            "children": [
+                                {
+                                    "type": "Image",
+                                    "src": "https://lh3.googleusercontent.com/proxy/UZ45gkVo5U6uiq0Eb1zQH65U2Tnq_M5ouUpppu6xYBrs13lQflFfd1qY_yrv56EqArXjFRJigI_f1s8P76i4hswjgaMgVd8",
+                                    "style": {
+                                        "width": 150,
+                                        "height": 100,
+                                        "margin": 10
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Text",
+                            "content": "Receipt Sent",
+                            "style": {
+                                "textAlign": "center",
+                                "padding": 10
+                            }
+                        },
+                        {
+                            "type": "View",
+                            "style": {
+                                "flexDirection": "row",
+                                "justifyContent": "space-around",
+                                "textAlign": "center"
+                            },
+                            "children": [
+                                {
+                                    "type": "Button",
+                                    "props": {
+                                        "title": "ok"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
